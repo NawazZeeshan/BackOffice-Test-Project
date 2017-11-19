@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Back Office Intranet Application Test Suite]">
+  <test name="BackOffice Application Test Cases(failed)">
+    <classes>
+      <class name="com.bo.qa.testCases.CreateTransactionPageTest">
+        <methods>
+          <include name="createNewTransaction1"/>
+          <include name="createNewTransaction"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bo.qa.testCases.CreateTransactionPageTest -->
+    </classes>
+  </test> <!-- BackOffice Application Test Cases(failed) -->
+</suite> <!-- Failed suite [Back Office Intranet Application Test Suite] -->
